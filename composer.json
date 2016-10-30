@@ -1,0 +1,25 @@
+{
+    "name": "senemoglu/composer-gui",
+    "description": "Just simple and lightweight Web GUI for Composer Package Manager.",
+    "keywords": ["composer", "gui", "graphical", "web", "interface"],
+    "homepage": "https://github.com/blueskan/composer-gui",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Batıkan Senemoğlu",
+            "email": "batikansenemoglu@gmail.com",
+            "homepage": "https://batikansenemoglu.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.5",
+        "phpunit/phpunit-mock-objects": "2.3.0"
+    },
+    "autoload": {
+        "psr-4": {"ComposerGUI\\": "src/ComposerGUI"}
+    },
+    "autoload-dev": {
+        "psr-4": {"ComposerGUI\\": "tests/ComposerGUI"}
+    }
+}
