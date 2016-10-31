@@ -53,11 +53,6 @@ class ComposerGUI {
         return $configurations;
     }
 
-    public function boot()
-    {
-        // Boot Composer GUI
-    }
-
     public function setConfigurations(array $configurations)
     {
         $this->configurations = $configurations;
